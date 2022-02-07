@@ -6,6 +6,7 @@ import backgroundvideo from "../assets/backgroundvideo.mp4";
 import Box from "@mui/material/Box";
 import ImageList from "@mui/material/ImageList";
 import ImageListItem from "@mui/material/ImageListItem";
+import { Link } from "react-router-dom";
 
 export const CarouselItem = ({ children, width }) => {
   return (
@@ -70,10 +71,18 @@ const ImageSlider = ({ slides }) => {
         <div className="centered">
           <p>Shop Designer Dresses on Sale from all over the world. </p>
 
-          <button className="buttons">Winter2022</button>
-          <button className="buttons">Summer2022</button>
-          <button className="buttons">Short Dresses</button>
-          <button className="buttons">Long Dresses</button>
+          <Link to="/winter2022">
+            <button className="buttons">Winter2022</button>
+          </Link>
+          <Link to="/summer2022">
+            <button className="buttons">Summer2022</button>
+          </Link>
+          <Link to="/short">
+            <button className="buttons">Short Dresses</button>
+          </Link>
+          <Link to="/long">
+            <button className="buttons">Long Dresses</button>
+          </Link>
           <br />
           <br />
           <br />
