@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+  color: rgb(255, 255, 255);
+}
+
+h1,
+p {
+  text-align: center;
+  letter-spacing: 5px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.fill-screen {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  text-align: center;
+}
+
+.make-it-fit {
+  max-width: 99%;
+  max-height: 99%;
+  opacity: 0.55;
+}

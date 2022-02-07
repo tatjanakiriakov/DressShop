@@ -1,0 +1,146 @@
+.container-slider {
+  float: left;
+  margin-left: 35px;
+  margin-top: 50px;
+  border-radius: 30px;
+  width: 680px;
+  height: 900px;
+}
+
+.slider {
+  position: relative;
+  height: 80vh;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+
+.image {
+  width: 450px;
+  height: 650px;
+  border-radius: 10px;
+  z-index: 10;
+}
+
+.right-arrow {
+  position: absolute;
+  top: 50%;
+  right: 32px;
+  font-size: 3rem;
+  background-color: transparent;
+  z-index: 10;
+  color: white;
+  cursor: pointer;
+  user-select: none;
+}
+
+.left-arrow {
+  position: absolute;
+  top: 50%;
+  left: 32px;
+  font-size: 3rem;
+  color: white;
+  background-color: transparent;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.slide {
+  opacity: 0;
+  transition-duration: 1s ease;
+}
+
+.slide.active {
+  opacity: 1;
+  transition-duration: 1s;
+  transform: scale(1.06);
+}
+
+.count {
+  position: absolute;
+  top: 2%;
+  left: 32px;
+  font-size: 24px;
+  background-color: transparent;
+  z-index: 10;
+}
+
+p {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  letter-spacing: 3px;
+  font-size: 22px;
+  margin-top: 30px;
+  color: white;
+  z-index: 10;
+}
+
+.backgroundvideo {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -10;
+  opacity: 0.5;
+}
+
+.centered {
+  position: absolute;
+  top: 20%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  margin-top: 200px;
+  font-size: 36px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  letter-spacing: 3px;
+}
+
+.buttons {
+  margin-top: 80px;
+  display: table-row;
+  background-color: white;
+  color: black;
+  font-size: 20px;
+  height: 60px;
+  width: 230px;
+  margin-right: 20px;
+  border-style: none;
+  border-radius: 15px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  letter-spacing: 2px;
+}
+
+.buttons:hover {
+  background-color: rgb(172, 172, 172);
+  transform: scale(1.06);
+}
+
+.inspo {
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  letter-spacing: 4px;
+}
+
+.inspo:hover {
+  text-decoration: none;
+  color: rgb(158, 158, 158);
+}
+
+#img-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100px;
+  width: 300px;
+}
+
+#img-wrapper > div {
+  flex: 0 1 33%;
+}
