@@ -50,19 +50,4 @@ const LongDressesData = [
     caption: "Elegant Cherry",
     price: 699.99,
   },
-  {
-    img: "https://images.pexels.com/photos/3687550/pexels-photo-3687550.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-    caption: "Safari",
-    price: 99.99,
-  },
-  {
-    img: "https://images.pexels.com/photos/9789961/pexels-photo-9789961.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-    caption: "Young",
-    price: 69.99,
-  },
-  {
-    img: "https://images.pexels.com/photos/9968271/pexels-photo-9968271.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-    caption: "Dubai",
-    price: 399.99,
-  },
 ];

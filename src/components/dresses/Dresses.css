@@ -1,0 +1,74 @@
+/* Items */
+
+.dress-box li {
+  height: auto;
+  margin-bottom: 18px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.dress-name {
+  color: white;
+}
+
+.dress-box img {
+  max-width: 480px;
+  margin-right: 40px;
+}
+
+.caption {
+  color: white;
+  font-size: 50px;
+  margin-top: 16px;
+  margin-bottom: 40px;
+  font-family: "Dongle", sans-serif;
+  letter-spacing: 5px;
+  line-height: 50px;
+}
+
+.price {
+  color: #ffffff;
+  font-size: 24px;
+  font-family: "Dongle", sans-serif;
+  letter-spacing: 1.5px;
+  margin-bottom: 40px;
+  margin-top: 70px;
+}
+
+.sizes {
+  color: #c9c9c9c4;
+  font-size: 28px;
+  font-family: "Dongle", sans-serif;
+  letter-spacing: 1.5px;
+  margin-bottom: 60px;
+  margin-top: 70px;
+}
+
+.description {
+  color: white;
+  line-height: 36px;
+  font-size: 24px;
+}
+
+.description-section {
+  padding: 16px;
+}
+
+.mt-5 {
+  color: white;
+  font-size: 25px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+@media screen and (min-width: 667px) {
+  .dress-box li {
+    flex-direction: row;
+  }
+}
